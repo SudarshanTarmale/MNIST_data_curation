@@ -1,4 +1,4 @@
-content = """# 🧹 MNIST Curation: Detecting Ambiguous Digits with FiftyOne
+"""# 🧹 MNIST Curation: Detecting Ambiguous Digits with FiftyOne
 
 This repository contains the solution for **Dataset Curation Lab 1**, part of the Applied Hands-On Computer Vision curriculum.
 
@@ -71,3 +71,4 @@ The final dataset, including the new `IDK` labels and embedding visualizations, 
 
 By introducing the `IDK` class, the model is no longer forced to make low-confidence guesses on unintelligible handwriting. This mimics real-world "human-in-the-loop" scenarios where ambiguous data should be flagged for review rather than misclassified.
 """
+
